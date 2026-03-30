@@ -9,3 +9,7 @@ variable "SUMOLOGIC_CTO_COMPLIANCE_ACCESSKEY" {
 variable "collectors" {
   default = {}
 }
+
+variable "sources" {
+  default     = {}
+}
