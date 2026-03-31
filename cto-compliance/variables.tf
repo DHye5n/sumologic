@@ -5,11 +5,3 @@ variable "SUMOLOGIC_CTO_COMPLIANCE_ACCESSID" {
 variable "SUMOLOGIC_CTO_COMPLIANCE_ACCESSKEY" {
   default = "string"
 }
-
-variable "collectors" {
-  default = {}
-}
-
-variable "sources" {
-  default     = {}
-}
